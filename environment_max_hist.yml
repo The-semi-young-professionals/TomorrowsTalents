@@ -1,0 +1,17 @@
+name: env_max
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - pandas
+  - nb_conda
+  - scipy
+  - python=3.9
+  - openpyxl
+  - psycopg2
+  - sqlalchemy
+  - requests
+prefix: /opt/homebrew/Caskroom/miniconda/base/envs/eda_env
